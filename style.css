@@ -4,25 +4,6 @@ body{
     font-size: 16px;
 }
 
-.btext{
-    color: #e6e6e6;
-    position: absolute;
-    text-align: center;
-    top: 40%;
-    width: 100%;
-    line-height: 0.4em;
-}
-
-h1{
-    font-size: 120px;
-    font-family: 'Karla', sans-serif;
-}
-
-p{
-    font-size: 40px;
-    font-family: 'Karla', sans-serif;
-}
-
 .btn{
     color: #3da4ac;
     text-decoration: ;
@@ -30,11 +11,6 @@ p{
     padding: 20px 55px;
     border-radius: 8px;
     line-height: 4em;
-}
-
-a{
-    font-size: 40px;
-    font-family: 'Karla', sans-serif;
 }
 
 .btn:hover{
@@ -48,10 +24,31 @@ a{
     background-size: auto;
 }
 
-html { 
-    background: url('image1.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg-1 {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("image1.jpg");
+  height: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  color: #e6e6e6;
   }
+
+.caption span.border {
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
