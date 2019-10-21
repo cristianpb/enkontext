@@ -6,7 +6,7 @@ body{
 
 .btn{
     color: #3da4ac;
-    text-decoration: ;
+    text-decoration: none;
     border: #ccc 1px solid;
     padding: 20px 55px;
     border-radius: 8px;
