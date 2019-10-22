@@ -4,22 +4,31 @@ body{
     font-size: 16px;
 }
 
-.btn{
-    color: #3da4ac;
-    text-decoration: none;
-    border: #ccc 1px solid;
-    padding: 20px 55px;
-    border-radius: 8px;
-    line-height: 4em;
+span{
+  size: 100px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
-.btn:hover{
+button{
+    /*color: #0a848d;*/
     color: #b19295;
-    border: #fff 1px solid;
+    text-decoration: none;
+    border: #ccc 1px solid;
+    padding: 15px 20px;
+    line-height: 2em;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+button:hover{
+    color: #b19295;
+    border: #b19295;
 }
 
 #particles-js{
-    background-image: url('image1.jpg');
+    background-image: url(../images/image1.jpg);
     background-repeat: no-repeat;
     background-size: auto;
 }
@@ -34,7 +43,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("image1.jpg");
+  background-image: url(../images/image1.jpg);
   height: 100%;
 }
 
@@ -51,4 +60,49 @@ body, html {
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
+}
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.1);
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 1rem 1.5rem;
+  width: 24rem;
+  border-radius: 0.5rem;
+}
+
+.close-button {
+  float: right;
+  width: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  background-color: lightgray;
+}
+
+.close-button:hover {
+  background-color: darkgray;
+}
+
+.show-modal {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1.0);
+  transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 }

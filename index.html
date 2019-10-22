@@ -19,25 +19,44 @@
 
 <!-- Title and buttons -->
 <body>
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
-    </style>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
 
-    <div class="bgimg-1" id="particles-js">
-      <div class="caption">
-        <span class="border">KonTexT</span><br>
-        <span class="border">Cutting-edge Technology for Natural Language Processing</span>
-      </div>
+    <div class="container-main">
+            <div class="bgimg-1" id="particles-js">
+                    <div class="caption">
+                      <span class="border", style="font-size: 120px">KONTEXT</span><br>
+                      <span class="border", style="font-size: 40px">Cutting-edge Technology for Natural Language Processing</span><br>
+                      <br><br><br><br><br><br><br><br><br><br><br>
+                      <!-- Trigger/Open The Modal -->
+                      <div class="container-button">
+                            <button type="button" class="btn -btn-primary" data-toggle="modal" data-target="#modal-1">Activate </button>
+                                <div class="modal" id="modal-1">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button class="button" type="close" data-dismiss="modal">&times;</button>
+                                            <h3 class="modal-title">THis is real</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                  
+                    </div>
+                  </div>
     </div>
 
 
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
+
+    <!-- Javascript files -->
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script>
-        particlesJS.load('particles-js', 'particles.json',
-        function(){
-            console.log('particles.json loaded...')
-        })
+            particlesJS.load('particles-js', 'js/particles.json',
+            function(){
+                console.log('particles.json loaded...')
+            })
     </script>
+
 </body>
 </html>
