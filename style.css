@@ -14,17 +14,12 @@ button{
     color: #b19295;
     text-decoration: none;
     border: #ccc 1px solid;
-    padding: 15px 20px;
+    padding: 25px 30px;
     line-height: 2em;
     background-color: transparent;
     background-repeat: no-repeat;
-    font-size: 30px;
+    font-size: 60px;
     font-family: 'Roboto Condensed', sans-serif;
-}
-
-button:hover{
-    color: #b19295;
-    border: #b19295;
 }
 
 #particles-js{
@@ -62,5 +57,13 @@ body, html {
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
+}
+
+.social-media a {
+  text-align: center;
+  padding: 36px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 40px;
 }
 
