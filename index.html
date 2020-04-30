@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta charset="utf-8" name="viewport" content= "width=device-width, initial-scale=1.0"> 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="author" content="Acevedo">
+    <meta name="author" content="Javier Acevedo">
     <meta name="Description" content="Coming Soon">
     <meta name="keywords" content="language learning, machine learning, translation">
 
     <!-- Website title -->
-    <title>Kontext: Languagues Everywhere</title>
+    <title>Kontext: Democratizing language access</title>
 
     <!-- Custom CSS file -->
     <link rel="stylesheet" href="style.css">
@@ -34,23 +34,54 @@
 <!-- Title and buttons -->
 <body>
     <div class="bgimg-1" id="particles-js"></div>  
+    
+    <div class="container-navbar">
+        <div class="navbar">
+            <a href="#home">Home</a>
+            <a href="#news">News</a>
+            <div class="dropdown">
+              <button class="dropbtn">Dropdown 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div> 
+        </div>
+    </div>
 
+    <!-- Main cointainer -->
     <div class="container-main">
-        <div class="caption">
-              <span class="my_border" style="font-size: 120px">KONTEXT</span><br>
-              <span class="my_border" style="font-size: 40px">LANGUAGES FOR EVERYONE, EVERYWHERE</span><br>
-              <span class="my_border" style="font-size: 40px">Coming Soon </span><br>
 
-              <br><br><br><br>
+        <div class="caption">
+             <!-- Main title -->
+              <span class="my_border" style="font-size: 120px">ENKONTEXT</span><br>
+              <span class="my_border" style="font-size: 40px">DEMOCRATIZING LANGUAGE ACCESS</span><br>
               <!-- Trigger/Open The Modal -->
               <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">More Information</button>
-              <!-- Social Medial Buttons-->
-              <br><br><br><br>  
-              <br><br><br><br>  
+
+              <br><br><br>
+              <br><br><br> 
+              <!-- Partners -->
+              <span class="my_border" style=="font-size: 40px">Main Partners </span>
+
+              <!-- Definition of partners-->
+              <div class="rowlogos">
+                    <a href="#" ><img src="../images/Logos/Bundesministerium_für_Wirtschaft_und_Energie_Logo.svg" alt="centered image" class="logoregierung" style="width:10%"></a>
+                    <a href="#" class="logodresdenexist"><img src="../images/Logos/ddex_logo_claim_cmyk.svg" alt="centered image"  style="width:10%"></a>
+                    <a href="#" class="logoexists"><img src="../images/Logos/Logo-EXIST-eps.svg" alt="centered image"  style="width:8%"></a>
+                    <a href="#" class="logoesf"><img src="../images/Logos/Logo-ESF-cmyk-eps.svg" alt="centered image"  style="width:8%"></a>
+                    <a href="#" class="logoeu4"><img src="../images/Logos/Logo-EU-cmyk-eps.svg" alt="centered image"  style="width:5%"></a>
+              </div> 
+
+              <!-- Social Medial Buttons--> 
+              <br><br><br> 
               <div class="social-media">
                     <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
                     <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                    <a href="#" class="google"><i class="fa fa-google"></i></a>
+                    <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
                     <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
                     <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
                 </div> 
@@ -79,11 +110,15 @@
         </div>
     </div>  
 
-    <!-- Javascript files -->
+    <!-- Javascript particles files -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/main.js"></script>
 
+    <!-- Javascript color manager-->
+    <script src="js/dropdown.js"></script>
+
+    <!-- Javascript button manager-->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
