@@ -45,6 +45,30 @@ body, html {
   width: 100%;
 }
 
+.nav{
+  float: center;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px 12px;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 2px;
+}
+
+.nav a:hover {
+  background-color: white;
+  color: black;
+}
+
 
 /* Position the navbar container inside the image */
 .container {
@@ -60,15 +84,15 @@ body, html {
 }
 
 /* Navbar links */
-.topnav a {
+.topnav a{
   float: left;
   color: #f2f2f2;
   text-align: center;
   padding: 12px 12px;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 20px;
   font-family: 'Roboto Condensed', sans-serif;
-  letter-spacing: 2px;;
+  letter-spacing: 2px;
 }
 
 .topnav a:hover {
@@ -78,9 +102,9 @@ body, html {
 
 .caption {
   position: absolute;
-  left: 0;
+  left: center;
   top: 20%;
-  width: auto;
+  width: 100%;
   text-align: center;
   color: #e6e6e6;
 }
@@ -100,6 +124,7 @@ body, html {
 
 /* Setup main logos */
 .rowlogos a{
+  left: 0;
   text-align: center;
   padding: 26px;
   transition: all 0.3s ease;
