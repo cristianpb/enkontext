@@ -10,153 +10,167 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover" />
     <meta name="google-site-verification" content="scQWauc_36n4plR9iTaxBgWFUsv-IHleuVbwUX5gInY" />
-    <link rel="stylesheet" type="text/css" href="https://cash-f.squarecdn.com/ember/7bb63ec1e7afe1b77408d0d2a03df9591b5fed2e/assets/home-stimulus.css" integrity="sha256-VtcDy8k6yolDUCw7t0aZRpBT75gvIjHmgsfeB6CH58s=" crossorigin="anonymous" />
 
     <!-- Website title -->
     <title> En Kontext | Democratizing language access</title>
 
-    <!-- Custom CSS file -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Social Media Buttons -->
+    <link rel="stylesheet" type="text/css" href="bulma.css"/>
+    <link rel="stylesheet" type="text/css" href="custom.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
 </head>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130170495-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-130170495-1');
-</script>
-
-<!-- Title and buttons -->
 <body>
-    <div class="bgimg-1" id="particles-js">
 
-        <!-- Navigation bar definition -->
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link" href="#">NEWSROOM</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">STUDENTS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">TEACHERS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">TECHNOLOGY</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">SUPPORT</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">STATUS</a>
-            </li>
-        </ul>
 
-        <div class="dropdown">
-            <a type="button" class="btn btn-transparent dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img src="../images/Flags/uk.svg" alt="centered image"  style="width:180%">
-            </a>
-            <div class="dropdown-menu">
-              <button class="dropdown-item" type="button"><img src="../images/Flags/deutschland.svg" alt="centered image"  style="width:30%">Deutsch</button>
-              <button class="dropdown-item" type="button"><img src="../images/Flags/france.svg" alt="centered image"  style="width:30%">Francais</button>
-              <button class="dropdown-item" type="button"><img src="../images/Flags/romania.svg" alt="centered image"  style="width:30%">Romana</button>
-              <button class="dropdown-item" type="button"><img src="../images/Flags/spain.svg" alt="centered image"  style="width:30%">Espanol</button>
+  <section class="hero is-dark is-fullheight" id="bgimg">
+    <!-- Hero head: will stick at the top -->
+    <div class="hero-head">
+      <header class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenuHeroC" class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item">
+                NEWSROOM
+              </a>
+              <a class="navbar-item">
+                STUDENTS
+              </a>
+              <a class="navbar-item">
+                TEACHERS
+              </a>
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                  <span class="icon">
+                    <img src="/images/Flags/uk.svg" alt="centered image" class="image is-128x128">
+                  </span>&nbsp;&nbsp;
+                </a>
+
+                <div class="navbar-dropdown">
+                  <div class="navbar-item">
+                    <span class="icon">
+                      <img src="/images/Flags/deutschland.svg" alt="centered image" class="image is-128x128">
+                    </span>&nbsp;&nbsp;
+                    Deutsch
+                  </div>
+                  <div class="navbar-item">
+                    <span class="icon">
+                      <img src="/images/Flags/france.svg" alt="centered image" class="image is-128x128">
+                    </span>&nbsp;&nbsp;
+                    Francais
+                  </div>
+                  <div class="navbar-item">
+                    <span class="icon">
+                      <img src="/images/Flags/romania.svg" alt="centered image" class="image is-128x128">
+                    </span>&nbsp;&nbsp;
+                    Romana
+                  </div>
+                  <div class="navbar-item">
+                    <span class="icon">
+                      <img src="/images/Flags/spain.svg" alt="centered image" class="image is-128x128">
+                    </span>&nbsp;&nbsp;
+                    Espanol
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+        </div>
+      </header>
+    </div>
+    <div id="particles-js"></div>
 
-          <script>
-              $('.dropdown-toggle').dropdown();
-          </script>
-        
-    
-    <script>
-    
-    $('#myButton').dropdown();
-    
-    </script>
-
+    <!-- Hero content: will be in the middle -->
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title is-size-1">
+          EN KONTEXT 
+        </h1>
+        <h2 class="subtitle">
+          DEMOCRATIZING LANGUAGE ACCESS
+        </h2>
+      </div>
     </div>
 
-    <!-- Main cointainer -->
-    <div class="container-main">
-        <div class="caption">
-             <!-- Main title -->
-              <span class="my_border" style="font-size: 80px">EN KONTEXT</span><br>
-              <span class="my_border" style="font-size: 25px">DEMOCRATIZING LANGUAGE ACCESS</span><br>
-              <!-- Trigger/Open The Modal -->
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">More Information</button>
-
-              <br><br><br>
-              <br><br><br> 
-
-              <!-- Partners -->
-              <span class="my_border" style="font-size: 25px">MAIN PARTNERS</span><br>
-              <!-- Definition of partners-->
-              <div class="rowlogos">
-                <a href="#" class="logoesf"><img src="../images/Logos/Logo-ESF-cmyk-eps.svg" alt="centered image"  style="width:9%"></a>
-                <a href="#" class="logodresdenexist"><img src="../images/Logos/ddex_logo_claim_cmyk.svg" alt="centered image"  style="width:11%"></a>
-        </div> 
-
-
-              <!-- Social Medial Buttons--> 
-              <br><br><br> 
-              <div class="social-media">
-                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                    <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-                    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                    <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
-                </div> 
+    <!-- Hero footer: will stick at the bottom -->
+    <div class="hero-foot">
+      <nav class="tabs is-boxed is-fullwidth">
+        <div class="container">
+          <ul>
+            <li>
+              <a class="icon is-large">
+                <i class="fa fa-facebook fa-3x"></i>
+              </a>
+            </li>
+            <li>
+              <a class="icon is-large">
+                <i class="fa fa-twitter fa-3x"></i>
+              </a>
+            </li>
+            <li>
+              <a class="icon is-large">
+                <i class="fa fa-instagram fa-3x"></i>
+              </a>
+            </li>
+            <li>
+              <a class="icon is-large">
+                <i class="fa fa-linkedin fa-3x"></i>
+              </a>
+            </li>
+            <li>
+              <a class="icon is-large">
+                <i class="fa fa-youtube fa-3x"></i>
+              </a>
+            </li>
+          </ul>
         </div>
+      </nav>
     </div>
+  </section>
 
-    <div class="container-button">
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">KONTEXT</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        We are Kontext, a German company in the making
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>  
+  <script src="js/particles.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
 
-    <!-- Javascript particles files -->
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/main.js"></script>
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
-    <!-- Javascript particles files -->
-    <script src="js/dropdown.js"></script>
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
 
-    <!-- Javascript bootstrap manager-->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        // Add a click event on each of them
+        $navbarBurgers.forEach( el => {
+          el.addEventListener('click', () => {
+
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+
+          });
+        });
+      }
+
+    });
+
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+    particlesJS.load('particles-js', 'js/particles.json', function() {
+      console.log('callback - particles.js config loaded');
+    });
+
+  </script>
 
 </body>
 </html>

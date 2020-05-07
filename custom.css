@@ -1,0 +1,37 @@
+#bgimg{
+    background-image: url(./images/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+@media only screen and (max-width: 767px) {
+    #bgimg{
+        background-image: url(./images/image2.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+    }
+}
+
+#particles-js {
+  /* For positioning with particles Javascript */
+  position: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  margin: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    #particles-js {
+        /* For positioning with particles Javascript */
+        position: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100%;
+        margin: 0;
+    }
+}
