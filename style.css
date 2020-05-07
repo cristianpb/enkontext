@@ -132,3 +132,11 @@ body, html {
   color: white;
   font-size: 40px;
 }
+
+.dropdown{
+  position: absolute;
+  top: 75px;
+  left: 75%;
+  color: transparent;
+}
+
